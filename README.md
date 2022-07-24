@@ -32,7 +32,6 @@ bash update.sh
 开启宝塔支持ipv6
 ```Bash
 echo "True" > /www/server/panel/data/ipv6.pl
-bt reload
 ```
 
 删除手机绑定
@@ -40,3 +39,6 @@ bt reload
 rm -f /www/server/panel/data/bind.pl
 ```
 
+```Bash
+bt reload
+```
