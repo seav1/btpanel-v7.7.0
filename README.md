@@ -13,8 +13,6 @@ echo -e "nameserver 2001:67c:2b0::4\nnameserver 2001:67c:2b0::6" > /etc/resolv.c
 ```
 
 降级到7.6
-
-添加nat 64
 ```Bash
 wget https://github.com/wei/baota/releases/download/7.6.0/LinuxPanel-7.6.0.zip
 ```
