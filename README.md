@@ -14,6 +14,9 @@ echo -e "nameserver 2001:67c:2b0::4\nnameserver 2001:67c:2b0::6" > /etc/resolv.c
 
 降级到7.6
 ```Bash
+wget https://github.com/wei/baota/releases/download/7.6.0/LinuxPanel-7.6.0.zip && unzip LinuxPanel-7.6.0.zip && cd panel/ && bash update.sh
+```
+```Bash
 wget https://github.com/wei/baota/releases/download/7.6.0/LinuxPanel-7.6.0.zip
 ```
 ```Bash
@@ -28,6 +31,10 @@ bash update.sh
 ```
 
 开启宝塔支持ipv6
+```Bash
+echo "True" > /www/server/panel/data/ipv6.pl && rm -f /www/server/panel/data/bind.pl && bt reload
+```
+
 ```Bash
 echo "True" > /www/server/panel/data/ipv6.pl
 ```
