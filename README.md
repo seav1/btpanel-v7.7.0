@@ -35,10 +35,6 @@ bash update.sh
 echo "True" > /www/server/panel/data/ipv6.pl && rm -f /www/server/panel/data/bind.pl && bt reload
 ```
 
-```Bash
-echo "True" > /www/server/mdserver-web/data && mw-cli 3
-```
-
 
 ```Bash
 echo "True" > /www/server/panel/data/ipv6.pl
